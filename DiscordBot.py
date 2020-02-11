@@ -17,7 +17,7 @@ async def on_message(message):
     if message.content.startswith("!안녕"):
         await message.channel.send("확 씨 씨벌럼이 예찬이 엄마 처음보냐?")
     if message.content.startswith("노무현"):
-        await message.channal.send(file=Discord.File("image.png"))
+        await message.channal.send(file=Discord.File('image.png'))
         await message.channel.send("여긴응디시티")
     if message.content.startswith("응디시티 틀어줘"):
         await message.channel.send(";;p 응디시티")
